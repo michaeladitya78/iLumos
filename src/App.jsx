@@ -959,7 +959,7 @@ export default function App() {
   // ── Export chart ─────────────────────────────────────────────────────────
   const handleExport = useCallback(async () => {
     await exportChart(currentChart);
-    showToast('Success: Rule 11-compliant Evidence of Use (EoU) Chart Exported.', 'success');
+    showToast('Success: Rule 11-compliant Evidence of Use Chart Exported.', 'success');
   }, [currentChart, showToast]);
 
   // ── Enter to send ────────────────────────────────────────────────────────
